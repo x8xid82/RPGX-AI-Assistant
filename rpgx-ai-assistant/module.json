@@ -4,24 +4,32 @@
   "type": "module",
   "description": "A rules-agnostic AI assistant for FoundryVTT that connects to a local Ollama or RAG server to provide in-game world knowledge, rule help, and creative content generation.",
   "version": "1.5.0",
+
   "compatibility": {
     "minimum": "11",
     "verified": "13.350"
   },
+
   "authors": [
     {
       "name": "Ashton Rogers (x8xid82)",
       "url": "https://x8xid82.wixsite.com/rpgxstudios",
       "discord": "x8xid82",
-      "email": ""
+      "email": "x8xid82@gmail.com"
     }
   ],
-  "esmodules": ["scripts/module.js"],
-  "styles": ["styles/module.css"],
-  "download": "https://www.patreon.com/c/rpgxstudios",
+
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+
+  "download": "https://github.com/x8xid82/RPGX-AI-Assistant/releases/download/v1.5.0/rpgx-ai-assistant.zip",
+  "manifest": "https://raw.githubusercontent.com/x8xid82/RPGX-AI-Assistant/main/rpgx-ai-assistant/module.json",
   "url": "https://x8xid82.wixsite.com/rpgxstudios",
   "license": "CC BY-NC 4.0",
   "flags": {},
-  "manifest": "modules/rpgx-ai-assistant/module.json",
   "readme": "README.md"
 }
